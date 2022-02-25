@@ -34,7 +34,6 @@ plugins=(
 
 source $OSH/oh-my-bash.sh
 # set source as bash_profile so mac specific path lines can be added here
-source ~/.bash_profile
 
 #################
 # custom config #
