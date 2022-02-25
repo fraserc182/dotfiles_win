@@ -1,0 +1,12 @@
+- deaults:
+    link:
+      relink: true
+
+- clean: ['~']
+
+- link:
+    ~/.bashrc: bashrc
+    ~/.config/nvim: nvim
+
+- shell:
+  - [git submodule update --init --recursive, Installing submodules]
